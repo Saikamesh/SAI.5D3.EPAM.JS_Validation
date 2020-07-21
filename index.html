@@ -4,54 +4,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+    <title>Registration Page</title>
+
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/v4-shims.css">
     <link rel="stylesheet" type="text/css" href="./styles.css">
-    <script src="./app.js"></script>
+
 </head>
 
 <body>
     <div class="container">
         <div class="header">
-            <h2>Create Account</h2>
+            <h2>Create your Account</h2>
         </div>
         <form id="form" class="form" action="">
-            <div class="form-control success">
-                <label for="">Username</label>
-                <input type="text" name="" id="username" placeholder="Enter your Name here">
-                <i class="fas fa-check-circle"></i>
-                <i class="fas fa-exclamation-circle"></i>
-                <small>Error Message</small>
-            </div>
-
-            <div class="form-control error">
-                <label for="">Email</label>
-                <input type="email" name="" id="email" placeholder="Enter your mail here">
+            <div class="form-control">
+                <!-- <label for="">Username</label> 
+                removing label inorder to have a minimal look & feel-->
+                <input type="text" name="" id="username" placeholder="Username">
                 <i class="fas fa-check-circle"></i>
                 <i class="fas fa-exclamation-circle"></i>
                 <small>Error Message</small>
             </div>
 
             <div class="form-control">
-                <label for="">Password</label>
-                <input type="password" name="" id="password" placeholder="Enter your Password here">
+                <!-- <label for="">Email</label> 
+                removing label inorder to have a minimal look & feel
+                -->
+                <input type="email" name="" id="email" placeholder="Email address">
                 <i class="fas fa-check-circle"></i>
                 <i class="fas fa-exclamation-circle"></i>
                 <small>Error Message</small>
             </div>
 
             <div class="form-control">
-                <label for="">Password check</label>
-                <input type="password" name="" id="password2" placeholder="Enter your password here">
+                <!-- <label for="">Password</label>
+                removing label inorder to have a minimal look & feel -->
+                <input type="password" name="" id="password" placeholder="Password">
                 <i class="fas fa-check-circle"></i>
                 <i class="fas fa-exclamation-circle"></i>
                 <small>Error Message</small>
             </div>
-            <button>Submit</button>
+
+            <div class="form-control">
+                <!-- <label for="">Password check</label>
+                removing label inorder to have a minimal look & feel -->
+                <input type="password" name="" id="password2" placeholder="Confirm">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error Message</small>
+            </div>
+
+            <button type="submit">Sign up</button>
         </form>
     </div>
+    <script src="./app.js" type="text/javascript"></script>
 </body>
 
 </html>
